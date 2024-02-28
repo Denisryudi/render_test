@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 
+#precisa do app, esperar modulo flask
 requisicao = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")
 
 requisicao_dic = requisicao.json()
